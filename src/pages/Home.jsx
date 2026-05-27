@@ -80,6 +80,10 @@ const Home = () => {
   return (
     <div className="min-h-screen bg-slate-950">
       <Helmet>
+        <meta
+          name="google-site-verification"
+          content="qoTbsUlL5kXlAlnNDj3r3UyApARK4hb1P14Zpg9NcrU"
+        />
         <title>
           NP Domain Cover Letter Generator | Create Cover Letters Online
         </title>
@@ -95,6 +99,12 @@ const Home = () => {
         />
 
         <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="NP Domain Cover Letter Generator" />
+        <meta
+          property="og:description"
+          content="Create and download NP domain registration cover letters instantly."
+        />
+        <meta property="og:type" content="website" />
       </Helmet>
       <Header />
 
